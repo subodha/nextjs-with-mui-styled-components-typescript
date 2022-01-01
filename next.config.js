@@ -2,6 +2,7 @@ const withTM = require('next-transpile-modules')(['@mui/material', '@mui/system'
 
 module.exports = withTM({
   reactStrictMode: true,
+  styledComponents: true,
   webpack: (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,

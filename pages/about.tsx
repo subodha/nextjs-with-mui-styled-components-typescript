@@ -3,10 +3,12 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
+import { styled } from "@mui/material/styles";
+
 import ProTip from "../src/ProTip";
 import Link from "../src/Link";
 import Copyright from "../src/Copyright";
-import styled from "styled-components";
+// import styled from "styled-components";
 
 const CustomButton = styled(Button)`
   font-size: 50px;

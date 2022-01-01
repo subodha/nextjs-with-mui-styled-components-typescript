@@ -9,19 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mui/material": "latest",
-    "@mui/styled-engine-sc": "latest",
+    "@mui/material": "^5.2.6",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
+    "@mui/styled-engine-sc": "^5.1.0",
     "next": "latest",
     "next-transpile-modules": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-is": "latest",
-    "styled-components": "latest"
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@types/react": "latest",
     "@types/styled-components": "latest",
     "babel-plugin-styled-components": "latest",
     "typescript": "latest"
+  },
+  "resolutions": {
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
   }
 }
