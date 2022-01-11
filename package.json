@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-with-styled-components-typescript",
+  "name": "nextjs-ssr-with-styled-components-typescript",
   "version": "5.0.0",
   "private": true,
   "scripts": {
@@ -27,5 +27,7 @@
   },
   "resolutions": {
     "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
-  }
+  },
+  "keywords": [],
+  "description": "example for nextjs ssr with styled-components and typescript\n\n"
 }
